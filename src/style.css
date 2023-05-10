@@ -8,7 +8,7 @@ h1 {
 
 .toptop-heading {
   display: flex;
-  justify-items: center;
+  justify-items: space-between;
 }
 
 .container {
@@ -17,7 +17,7 @@ h1 {
   border: 2px solid gray;
   margin: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 ul {
