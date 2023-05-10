@@ -8,7 +8,7 @@ h1 {
 
 .toptop-heading {
   display: flex;
-  justify-items: space-between;
+  justify-content: space-between;
 }
 
 .container {
@@ -37,7 +37,6 @@ button {
   background-color: aliceblue;
   padding: 12px;
   outline: none;
-
 }
 
 .fa-solid {
@@ -48,4 +47,3 @@ button {
   display: flex;
   flex-wrap: nowrap;
 }
-
