@@ -5,9 +5,8 @@
   "private": "true",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "server": "node server.js",
-    "start": "webpack serve --open"
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +20,7 @@
     "express": "^4.18.2",
     "hint": "^2.0.0",
     "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
