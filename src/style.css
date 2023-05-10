@@ -16,6 +16,8 @@ h1 {
   background-color: white;
   border: 2px solid gray;
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -34,6 +36,8 @@ button {
   display: block;
   background-color: aliceblue;
   padding: 12px;
+  outline: none;
+
 }
 
 .fa-solid {
@@ -45,6 +49,3 @@ button {
   flex-wrap: nowrap;
 }
 
-.placeholder {
-  font-family: 'italic,sans serif';
-}
