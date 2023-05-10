@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome book <a name="about-project"></a>
+# 📖 To Do List App<a name="about-project"></a>
 
 > it a basic To Do list app,and learning more about javascript using webpack
 
