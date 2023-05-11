@@ -1,4 +1,8 @@
 import './style.css';
+//import for add and remove
+
+import script  from '../modules/script';
+
 
 const mylist = [
   {
@@ -26,6 +30,10 @@ mylist.forEach((value) => {
   const li = document.createElement('li');
   li.innerHTML = `
         ${value.description}<i class="fa-solid fa-ellipsis-vertical"></i>
+
     `;
   list.appendChild(li);
 });
+
+
+// add amd remove

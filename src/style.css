@@ -13,6 +13,14 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid #f7f7f7;
+  align-items: center;
+}
+
+.add-list {
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -44,6 +52,7 @@ button {
   outline: none;
   border: none;
   width: 100%;
+  cursor: pointer;
 }
 
 .fa-solid {
@@ -61,8 +70,9 @@ input {
   border: none;
   font-style: italic;
   padding: 14px;
+  width: 65%;
 }
 
 #body {
-  border: #b7b2b2;
+  border: #0c0b0b;
 }
