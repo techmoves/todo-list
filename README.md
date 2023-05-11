@@ -50,7 +50,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://github.com/techmoves/my-portfolio/blob/htmlcss1/.github/workflows/linters.yml">Linters</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">Linters</a></li>
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
