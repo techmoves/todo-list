@@ -3,18 +3,21 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 0 0 0 35px;
+  font-size: large;
+  padding: 10px;
 }
 
-.toptop-heading {
+.top-hd {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  border: 1px solid #f7f7f7;
 }
 
 .container {
   padding: 20px;
   background-color: white;
-  border: 2px solid gray;
   margin: 20px;
   display: flex;
   justify-content: space-between;
@@ -26,24 +29,40 @@ ul {
 
 ul li {
   display: flex;
-  border: 2px solid #f7f7f7;
+  border: 1px solid #f7f7f7;
   list-style-type: none;
   justify-content: space-between;
+  padding: 10px;
 }
 
 button {
-  color: azure;
+  color: black;
   display: block;
-  background-color: aliceblue;
+  justify-content: center;
+  background-color: rgb(251, 251, 251);
   padding: 12px;
   outline: none;
+  border: none;
+  width: 100%;
 }
 
 .fa-solid {
-  color: #e5e9f0;
-}
-
-#form {
+  color: #b7b2b2;
+  cursor: move;
+  padding-right: 11px;
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+input {
+  margin: 0 0 0 45px;
+  border: none;
+  font-style: italic;
+  padding: 14px;
+}
+
+#body {
+  border: #b7b2b2;
 }

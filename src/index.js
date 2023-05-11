@@ -2,7 +2,7 @@ import './style.css';
 
 const mylist = [
   {
-    description: 'Watch coding tutorails',
+    description: 'Watch coding Tutorial on YouTube',
     completed: false,
     index: 1,
   },
