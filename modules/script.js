@@ -1,8 +1,8 @@
 const save = (data) => {
-  localStorage.setItem("mylist", JSON.stringify(data));
+  localStorage.setItem('mylist', JSON.stringify(data));
 };
 
-const retrieve = () => JSON.parse(localStorage.getItem("mylist"));
+const retrieve = () => JSON.parse(localStorage.getItem('mylist'));
 
 function updateList(mylists) {
   return mylists.map((value, index) => {
@@ -32,4 +32,3 @@ export default {
 };
 
 // --for clear all---
-
