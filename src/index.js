@@ -3,6 +3,7 @@ import './style.css';
 import script from '../modules/script.js';
 
 // add amd remove
+
 const localData = script.retrieve();
 if (!localData) localStorage.setItem('mylist', '[]');
 
@@ -47,7 +48,6 @@ const renderList = () => {
     const input = form.text.value;
     const completed = false;
     const id = storeData.length;
-
     script.add(input, completed, id);
     display();
     form.text.value = '';
