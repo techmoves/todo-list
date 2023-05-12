@@ -175,7 +175,7 @@ Contributions, issues, and feature requests are welcome!
 
 
 
-Feel free to check the [issues page]( https://github.com/techmoves/todo-list.git)
+Feel free to check the [issues page]( https://github.com/techmoves/todo-list/issues?q=is%3Aopen+is%3Aissue)
     
 <p align="right">(<a href="">back to top</a>)</p>
 
@@ -202,6 +202,6 @@ i would like to thank the Microverse team for this project
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./mit.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
