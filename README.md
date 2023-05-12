@@ -119,11 +119,8 @@ To run tests, run the following command:
 - npx stylelint "\*_/_.{css,scss}"
 - modules
 
-### Deployment
 
-- Project is deployed using [GitHub Pages](https://github.com/techmoves/todo-list.git)
-
-##  Key Features <a name="Key-features"></a>
+###  Key Features <a name="Key-features"></a>
 - Added index.html file
 - Added styles.css
 - Added index.js file
