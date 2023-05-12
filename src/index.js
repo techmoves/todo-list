@@ -54,3 +54,13 @@ const renderList = () => {
   });
 };
 renderList();
+
+
+display();
+const clear = () => {
+  let store = script.retrieve();
+  store = store.filter((mylist) => !mylist.completed);
+  const remains = script.updateList(store);
+  script.save(remains);
+};
+

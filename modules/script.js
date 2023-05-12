@@ -29,6 +29,7 @@ export default {
   remove,
   save,
   retrieve,
+  updateList,
 };
 
 // --for clear all---
