@@ -55,7 +55,6 @@ const renderList = () => {
 };
 renderList();
 
-
 display();
 const clear = () => {
   let store = script.retrieve();
@@ -63,4 +62,4 @@ const clear = () => {
   const remains = script.updateList(store);
   script.save(remains);
 };
-
+clear();
