@@ -2,6 +2,7 @@ import './style.css';
 
 import script from '../modules/script.js';
 
+import { completed, unCompleted } from "../modules/app.js";
 // add amd remove
 
 const localData = script.retrieve();
@@ -38,6 +39,20 @@ const display = () => {
       script.save(test);
     });
   });
+
+const checkbox = document.querySelectorAll(".checkbox");
+checkbox.forEach((btn, index) => {
+  btn.addEventListener("change", () => {
+    const test = utils.retrieve();
+    if (btn.checked === true) {
+      test[index].completed = completed(test);
+    } else {
+      test[index].completed = unCompleted(test);
+    }
+    utils.save(test);
+  });
+});
+
 };
 
 const renderList = () => {
@@ -63,3 +78,5 @@ const clear = () => {
   script.save(remains);
 };
 clear();
+
+
