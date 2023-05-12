@@ -174,7 +174,6 @@ Create a new issue: If you I find an existing issue that matches your contributi
 Contributions, issues, and feature requests are welcome!
 
 
-
 Feel free to check the [issues page]( https://github.com/techmoves/todo-list/issues?q=is%3Aopen+is%3Aissue)
     
 <p align="right">(<a href="">back to top</a>)</p>
