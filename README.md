@@ -119,6 +119,7 @@ To run tests, run the following command:
 - npx stylelint "\*_/_.{css,scss}"
 - modules
 
+
 ###  Key Features <a name="Key-features"></a>
 - Added index.html file
 - Added styles.css
