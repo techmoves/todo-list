@@ -144,8 +144,10 @@ To run tests, run the following command:
 > Features to be added:
 
 - [X] **[To DO list add and remove]**
-- [X] **[To DO list add and interactions]**
-
+- [] **[To DO list add and interactions]**
+- [X] **[Set Local Storage]**
+- [X] **[Maintain the Index]**
+- [X] **[add update list]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
