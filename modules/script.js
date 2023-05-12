@@ -18,7 +18,6 @@ function add(description, completed, id) {
   save(sortedData);
 }
 
-
 function remove(id) {
   const storeData = retrieve();
   const remaining = storeData.filter((mylist) => mylist.id !== id);
