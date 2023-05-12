@@ -10,15 +10,17 @@
 <body>
     <div class="container"></div>
   <div id="body">
-      <form id="form">
+      <form id="form" data-new-list-form>
            <div class="top-hd">
                 <h1> Today's To Do</h1>
               <i class="fa-solid fa-rotate"></i>
            </div>
-              
-          <input name="text" id="text" type="text" placeholder="add to your list..." >
+           <div class="add-list">
+   <input data-new-list-input name="text" id="text" type="text" placeholder="add to your list..." >
+          <i class="fa-solid fa-plus"></i>
+           </div>             
+       
       </form>
-       <i class="fa-solid fa-arrow-turn-down-left"></i>
   </div>
   <ul id="list"></ul>
   <button type="button">Clear All Completed</button>

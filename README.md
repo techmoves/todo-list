@@ -119,6 +119,16 @@ To run tests, run the following command:
 - npx stylelint "\*_/_.{css,scss}"
 - modules
 
+
+###  Key Features <a name="Key-features"></a>
+- Added index.html file
+- Added styles.css
+- Added index.js file
+-  Used Modular JS
+
+
+
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -146,7 +156,6 @@ To run tests, run the following command:
 
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -160,8 +169,6 @@ Create a new issue: If you I find an existing issue that matches your contributi
 
 
 Contributions, issues, and feature requests are welcome!
-
-
 
 
 Feel free to check the [issues page]( https://github.com/techmoves/todo-list/issues?q=is%3Aopen+is%3Aissue)
@@ -191,6 +198,6 @@ i would like to thank the Microverse team for this project
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./mit.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
