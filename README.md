@@ -119,11 +119,6 @@ To run tests, run the following command:
 - npx stylelint "\*_/_.{css,scss}"
 - modules
 
-### Deployment
-
-- Project is deployed using [GitHub Pages](https://github.com/techmoves/todo-list.git)
-
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
