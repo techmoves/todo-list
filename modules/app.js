@@ -1,13 +1,13 @@
 function completed(task) {
   task.completed = true;
-  const test = task.completed;
-  return test;
+  const tick = task.completed;
+  return tick;
 }
 
 function unCompleted(task) {
   task.completed = false;
-  const test = task.completed;
-  return test;
+  const tick = task.completed;
+  return tick;
 }
 
 export { completed, unCompleted };

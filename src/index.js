@@ -34,22 +34,26 @@ const display = () => {
   const span = document.querySelectorAll('.text');
   span.forEach((btn, index) => {
     btn.addEventListener('keyup', () => {
-      const test = script.retrieve();
-      test[index].description = btn.value;
-      script.save(test);
+      const tick = script.retrieve();
+      tick[index].description = btn.value;
+      script.save(tick);
     });
   });
+
+
+  
+//check box
 
 const checkbox = document.querySelectorAll(".checkbox");
 checkbox.forEach((btn, index) => {
   btn.addEventListener("change", () => {
-    const test = utils.retrieve();
+    const tick = script.retrieve();
     if (btn.checked === true) {
-      test[index].completed = completed(test);
+      tick[index].completed = completed(tick);
     } else {
-      test[index].completed = unCompleted(test);
+      tick[index].completed = unCompleted(tick);
     }
-    utils.save(test);
+    script.save(tick);
   });
 });
 
@@ -78,5 +82,4 @@ const clear = () => {
   script.save(remains);
 };
 clear();
-
 
