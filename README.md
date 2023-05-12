@@ -168,7 +168,8 @@ Contributions, issues, and feature requests are welcome!
 
 
 
-Feel free to check the [issues page]( https://github.com/techmoves/todo-list.git)
+
+Feel free to check the [issues page]( https://github.com/techmoves/todo-list/issues?q=is%3Aopen+is%3Aissue)
     
 <p align="right">(<a href="">back to top</a>)</p>
 
