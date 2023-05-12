@@ -123,6 +123,14 @@ To run tests, run the following command:
 
 - Project is deployed using [GitHub Pages](https://github.com/techmoves/todo-list.git)
 
+##  Key Features <a name="Key-features"></a>
+- Added index.html file
+- Added styles.css
+- Added index.js file
+-  Used Modular JS
+
+
+
 
 <!-- AUTHORS -->
 

@@ -12,7 +12,7 @@ const display = () => {
   const list = document.getElementById('list');
   list.innerHTML = '';
   storeData.forEach((value) => {
-    // Creating list of to-do
+    //  list of to-do
     const li = document.createElement('li');
     li.innerHTML = `
     <input type="checkbox">
