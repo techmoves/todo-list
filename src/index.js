@@ -2,7 +2,9 @@ import './style.css';
 
 import script from '../modules/script.js';
 
+import { completed, unCompleted } from '../modules/app.js';
 // add amd remove
+const clearButton = document.getElementById('clear-btn');
 
 const localData = script.retrieve();
 if (!localData) localStorage.setItem('mylist', '[]');
@@ -16,7 +18,7 @@ const display = () => {
     //  list of to-do
     const li = document.createElement('li');
     li.innerHTML = `
-    <input type="checkbox">
+    <input class="checkbox" type="checkbox" ${value.completed ? 'checked' : ''}>
     <input class="text" type="text" value="${value.description}"/> 
     <i class="fa-solid fa-ellipsis-vertical"></i>
     `;
@@ -33,9 +35,24 @@ const display = () => {
   const span = document.querySelectorAll('.text');
   span.forEach((btn, index) => {
     btn.addEventListener('keyup', () => {
-      const test = script.retrieve();
-      test[index].description = btn.value;
-      script.save(test);
+      const tick = script.retrieve();
+      tick[index].description = btn.value;
+      script.save(tick);
+    });
+  });
+
+  // check box
+
+  const checkbox = document.querySelectorAll('.checkbox');
+  checkbox.forEach((btn, index) => {
+    btn.addEventListener('change', () => {
+      const tick = script.retrieve();
+      if (btn.checked === true) {
+        tick[index].completed = completed(tick);
+      } else {
+        tick[index].completed = unCompleted(tick);
+      }
+      script.save(tick);
     });
   });
 };
@@ -62,4 +79,7 @@ const clear = () => {
   const remains = script.updateList(store);
   script.save(remains);
 };
-clear();
+clearButton.addEventListener('click', () => {
+  clear();
+  display();
+});
