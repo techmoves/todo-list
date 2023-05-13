@@ -4,7 +4,7 @@ import script from '../modules/script.js';
 
 import { completed, unCompleted } from '../modules/app.js';
 // add amd remove
-const clearButton = document.querySelector('.clear');
+const clearButton = document.getElementById("clear-btn");
 
 const localData = script.retrieve();
 if (!localData) localStorage.setItem('mylist', '[]');
@@ -79,4 +79,7 @@ const clear = () => {
   const remains = script.updateList(store);
   script.save(remains);
 };
+clearButton.addEventListener('click',() => {
 clear();
+display();
+})
