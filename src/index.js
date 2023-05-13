@@ -4,7 +4,7 @@ import script from '../modules/script.js';
 
 import { completed, unCompleted } from '../modules/app.js';
 // add amd remove
-const clearButton = document.getElementById("clear-btn");
+const clearButton = document.getElementById('clear-btn');
 
 const localData = script.retrieve();
 if (!localData) localStorage.setItem('mylist', '[]');
@@ -18,7 +18,7 @@ const display = () => {
     //  list of to-do
     const li = document.createElement('li');
     li.innerHTML = `
-    <input class="checkbox" type="checkbox" ${value.completed ? "checked" : ""}>
+    <input class="checkbox" type="checkbox" ${value.completed ? 'checked' : ''}>
     <input class="text" type="text" value="${value.description}"/> 
     <i class="fa-solid fa-ellipsis-vertical"></i>
     `;
@@ -79,7 +79,7 @@ const clear = () => {
   const remains = script.updateList(store);
   script.save(remains);
 };
-clearButton.addEventListener('click',() => {
-clear();
-display();
-})
+clearButton.addEventListener('click', () => {
+  clear();
+  display();
+});
